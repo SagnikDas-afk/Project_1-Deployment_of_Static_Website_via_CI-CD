@@ -12,12 +12,6 @@ This is a foundational DevOps project designed to demonstrate continuous integra
 ## 🛠️ Tech Stack & Tools
 * **Version Control**: Git & GitHub
 * **CI/CD Platform**: GitHub Actions
-* **Operating System**: Linux (Ubuntu / Amazon Linux)
-* **Web Server**: Nginx / Apache
+* **Operating System**: Linux
+* **Web Server**: Apache
 * **Security & Protocol**: OpenSSH & rsync
-
-## 🔑 Core DevOps Skills Demonstrated
-* Writing infrastructure automation using YAML syntax.
-* Managing secure authentication using GitHub Repository Secrets and SSH keys.
-* Administering basic Linux file system permissions and web server directories.
-* Eliminating manual deployment friction by enforcing automated pipelines.
