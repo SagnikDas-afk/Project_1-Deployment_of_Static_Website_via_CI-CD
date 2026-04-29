@@ -11,6 +11,5 @@ This project focuses on automating the delivery and hosting of a static web appl
 
 ## 🛠️ Tech Stack & Tools
 * **Version Control**: Git & GitHub
-* **CI/CD Platform**: GitHub Actions
 * **Operating System**: Linux
 * **Web Server**: Apache
