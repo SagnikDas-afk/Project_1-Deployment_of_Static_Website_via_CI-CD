@@ -1,13 +1,13 @@
-# Automated Static Website Deployment via CI/CD
+# Automated Static Website Deployment via Apache
 
 ## 📌 Project Overview
-This is a foundational DevOps project designed to demonstrate continuous integration and continuous deployment (CI/CD). It automates the process of publishing a static website to a live Linux environment. Instead of manually uploading files via FTP or SSH, a simple `git push` triggers an automated workflow that securely updates the web server in seconds.
+This project focuses on automating the delivery and hosting of a static web application specifically using the Apache HTTP Server (httpd). Instead of relying on third-party CI/CD runners like GitHub Actions, this setup is designed for direct server-side deployment and management.
 
 ## 🚀 How It Works
-1. Developer pushes code updates to the `main` branch on GitHub.
-2. Continuous Integration: The CI runner detects the push and initiates the workflow.
-3. The runner clones the repository and securely connects to the remote Linux server via SSH.
-4. Continuous Deployment: Validated files are transferred to the hosting provider's production environment.
+1. Repository Integration: The website source code is cloned directly into the Apache web root directory `(/var/www/html)`, making the files accessible to the server.
+2. Port Management: To avoid conflicts with existing services, the configuration is shifted from the standard Port 80 to Port 8080.
+3. Service Hosting: The Apache2 (httpd) service acts as a listener, monitoring incoming traffic on the specified port.
+4. When a user accesses the server IP via Port 8080, Apache maps the request to the `index.html` file in the root directory and serves it to the browser.
 
 ## 🛠️ Tech Stack & Tools
 * **Version Control**: Git & GitHub
