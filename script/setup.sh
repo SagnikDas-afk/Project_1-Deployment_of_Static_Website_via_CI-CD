@@ -6,11 +6,11 @@ sudo apt install apache2
 sudo a2enmod mime
 
 cd /var/www/html
-git clone https://github.com/SagnikDas-afk/Project_1-Deployment_of_Static_Website_via_CI-CD.git
+git clone https://github.com/SagnikDas-afk/Automated-Static-Website-Deployment-via-Apache.git
  
 # Set Permissions
-sudo chown -R $USER:$USER /var/www/html/Project_1-Deployment_of_Static_Website_via_CI-CD/
-sudo chmod -R 755 /var/www/html/Project_1-Deployment_of_Static_Website_via_CI-CD/
+sudo chown -R $USER:$USER /var/www/html/Automated-Static-Website-Deployment-via-Apache/
+sudo chmod -R 755 /var/www/html/Automated-Static-Website-Deployment-via-Apache/
 
 sudo apache2ctl configtest
 
