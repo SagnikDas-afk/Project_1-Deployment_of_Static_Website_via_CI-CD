@@ -1,7 +1,7 @@
 # Automated Static Website Deployment via Apache
 
 ## 📌 Project Overview
-This project focuses on automating the delivery and hosting of a static web application specifically using the Apache HTTP Server (httpd). Instead of relying on third-party CI/CD runners like GitHub Actions, this setup is designed for direct server-side deployment and management.
+This project focuses on automating the delivery and hosting of a static web application specifically using the Apache HTTP Server (httpd).This setup is designed for direct server-side deployment and management.
 
 ## 🚀 How It Works
 1. Repository Integration: The website source code is cloned directly into the Apache web root directory `(/var/www/html)`, making the files accessible to the server.
